@@ -1,0 +1,14 @@
+{
+  "name": "agentic-playbook",
+  "owner": {
+    "name": "Sean Cabalse"
+  },
+  "description": "An engineering playbook for AI-assisted teams, packaged as one Claude Code plugin.",
+  "plugins": [
+    {
+      "name": "playbook",
+      "source": "./",
+      "description": "Agentic engineering playbook: working agreement, principles, stack rules, templates, and skills and agents for planning, building, reviews, audits, verification and shipping."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "description": "Tells Claude which playbook files this project overrides in .playbook/local/.",
+  "hooks": {
+    "SessionStart": [
+      { "hooks": [{ "type": "command", "command": "\"${CLAUDE_PLUGIN_ROOT}\"/hooks/session-start.sh" }] }
+    ]
+  }
+}

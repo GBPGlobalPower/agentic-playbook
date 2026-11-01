@@ -1,0 +1,17 @@
+{
+  "extraKnownMarketplaces": {
+    "agentic-playbook": {
+      "source": {
+        "source": "github",
+        "repo": "seancabalse/agentic-playbook"
+      },
+      "autoUpdate": true
+    }
+  },
+  "enabledPlugins": {
+    "playbook@agentic-playbook": true
+  },
+  "worktree": {
+    "baseRef": "head"
+  }
+}

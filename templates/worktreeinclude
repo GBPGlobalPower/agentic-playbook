@@ -1,0 +1,5 @@
+# Copy to the project root as .worktreeinclude (gitignore syntax). Claude Code copies these gitignored
+# files into every worktree it creates, so agents can run the app and tests there. Never list secrets
+# that a worktree doesn't need.
+.env
+.env.local
